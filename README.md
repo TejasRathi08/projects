@@ -23,6 +23,7 @@ This project demonstrates how to perform basic stock market data analysis in R u
 ```r
 install.packages("quantmod")
 install.packages("PerformanceAnalytics")
+```
 
 
 # 📊 Code Explanation – Stock Analysis using quantmod & PerformanceAnalytics in R
@@ -36,7 +37,7 @@ This README provides a detailed breakdown of R code used for fetching stock data
 ```r
 library(quantmod)
 MSFT <- getSymbols("MSFT", auto.assign = FALSE)
-
+```
 
 # 📊 Stock Market Analysis in R
 
@@ -50,3 +51,4 @@ This project demonstrates how to use **R** and the **quantmod** and **Performanc
 head(MSFT)
 dim(MSFT)
 MSFT["2007-01-03"]
+```
